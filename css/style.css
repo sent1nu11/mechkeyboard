@@ -1,9 +1,52 @@
 h1 {
-    color: rgba(255,050,060,.4);
+    
     font-family: Verdana, Geneva, Tahoma, sans-serif;  
     font-size: 3em; 
 }
 
+.container {
+    width: 80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+#mainheader {
+    background:#333
+}
+
+#mainnav {
+    background: #555;
+    color:wheat;
+}
+
+/* navigation bar */
+
+#mainnav ul {
+    padding:0;              /* remove padding and margins to flush */
+    margin:0;
+    list-style: none;       /* remove dots */
+}
+
+#mainnav li {
+    display:inline;         /* fit all list items on same line */
+    margin: 20px 30px;
+}
+
+
+#mainnav a {
+    color: white;
+    text-decoration: none;     /* removes underline on the links */
+    font-size: 50px;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin:0px;     /* make the body flush against the edges */
+}
+
+
+p {
+    border: 5px solid blueviolet;
+    padding: 10px 20px;
+    margin-top: 20px;
 }
