@@ -28,8 +28,10 @@ h1 {
 }
 
 #mainnav li {
-    display:inline;         /* fit all list items on same line */
-    margin: 20px 30px;
+    display:inline-block;         /* fit all list items on same line */
+    width: 40px;
+    height: 20px;
+    padding: 20px;
 }
 
 
