@@ -27,17 +27,11 @@ h1 {
     list-style: none;       /* remove dots */
 }
 
-<<<<<<< HEAD
 #mainnav li {
     display:inline-block;         /* fit all list items on same line */
     width: 40px;
     height: 20px;
     padding: 20px;
-=======
-#mainNav li {
-    display:inline;         /* fit all list items on same line - as opposed to default block level */
-    margin: 20px 40px;
->>>>>>> refs/remotes/origin/main
 }
 
 
